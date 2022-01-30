@@ -24,30 +24,30 @@
 							<div class="menu__item">
 								<button data-parent="1" class="menu__link">Недвижимость <span class="_icon-arrow-lock"></span></button>
 								<div data-submenu="1" class="menu__spoller">
-									<a id="header-link" href="">Аппартаменты</a>
-									<a id="header-link" href="">Пентхаусы</a>
-									<a id="header-link" href="">Таунхаусы</a>
-									<a id="header-link" href="">Виллы</a>
+									<a data-goto=".object__heading" data-goto-header class="header-link" href="">Аппартаменты</a>
+									<a data-goto=".object__heading" data-goto-header class="header-link" href="">Пентхаусы</a>
+									<a data-goto=".object__heading" data-goto-header class="header-link" href="">Таунхаусы</a>
+									<a data-goto=".object__heading" data-goto-header class="header-link" href="">Виллы</a>
 								</div>
 							</div>
 							<div class="menu__item">
 								<button data-parent="2" class="menu__link">Услуги <span class="_icon-arrow-lock"></span></button>
 								<div data-submenu="2" class="menu__spoller">
-									<a id="header-link" href="">Покупка</a>
-									<a id="header-link" href="">Продажа</a>
-									<a id="header-link" href="">Аренда</a>
-									<a id="header-link" href="">Управление недвижимостью</a>
-									<a id="header-link" href="">Бизнес консалтинг</a>
-									<a id="header-link" href="">Инвестиции в Швейцарии</a>
+									<a class="header-link" href="">Покупка</a>
+									<a class="header-link" href="">Продажа</a>
+									<a class="header-link" href="">Аренда</a>
+									<a class="header-link" href="">Управление недвижимостью</a>
+									<a class="header-link" href="">Бизнес консалтинг</a>
+									<a class="header-link" href="">Инвестиции в Швейцарии</a>
 								</div>
 							</div>
-							<div class="menu__item"><a href="" id="header-link" data-goto=".questions__heading" data-goto-header data-goto-top="30" class="menu__link">Вопросы</a></div>
-							<div class="menu__item"><a href="" id="header-link" data-goto=".team__heading" data-goto-header data-goto-top="30" class="menu__link">Команда </a></div>
+							<div class="menu__item header-link"><a href="" data-goto=".questions__heading" data-goto-header data-goto-top="30" class="menu__link">Вопросы</a></div>
+							<div class="menu__item header-link"><a href="" data-goto=".team__heading" data-goto-header data-goto-top="30" class="menu__link">Команда </a></div>
 						</div>
 					</nav>
 					<div data-da=".menu__body, 767" class="menu__langue langue-menu">
-						<span class="langue-menu__item langue-menu__active">Ru</span>
-						<span class="langue-menu__item">En</span>
+						<a href="index.html" class="langue-menu__item langue-menu__active">Ru</a>
+						<a href="en.html" class="langue-menu__item">En</a>
 					</div>
 				</div>
 			</div>
@@ -1083,7 +1083,9 @@
 					<div class="investment__list list-investment">
 						<div class="list-investment__position">
 							<div class="list-investment__content">
-								<span class="list-investment__text">В дополнение к нашим захватывающим проектам в области недвижимости, мы предлагаем вам эксклюзивную возможность участвовать в новых швейцарских компаниях, работающих в наиболее экономически привлекательных секторах:</span>
+								<span class="list-investment__text">В дополнение к нашим захватывающим проектам в области недвижимости,
+									мы предлагаем вам эксклюзивную возможность участвовать в новых швейцарских компаниях, работающих в
+									наиболее экономически привлекательных секторах:</span>
 								<div class="list-investment__info">
 									<span class="list-investment__item"> - Устойчивость</span>
 									<span class="list-investment__item"> - Биотехнологии / Медицина / Искусственный интеллект</span>
@@ -1093,11 +1095,14 @@
 
 							</div>
 							<div class="list-investment__content">
-								<span class="list-investment__text">Вы всегда хотели участвовать в недвижимости на привлекательном швейцарском рынке? SGIP Real Estate делает это возможным! </span>
-								<span class="list-investment__text">Мы выполнили свою задачу, чтобы реализовать проект из созданной идеи – из этого вытекает проект строительства в кантоне Швиц.</span>
+								<span class="list-investment__text">Вы всегда хотели участвовать в недвижимости на привлекательном
+									швейцарском рынке? SGIP Real Estate делает это возможным! </span>
+								<span class="list-investment__text">Мы выполнили свою задачу, чтобы реализовать проект из созданной идеи
+									– из этого вытекает проект строительства в кантоне Швиц.</span>
 								<a href="" class="list-investment__link">Подробнее <span class="_icon-arrow"></span></a>
 								<div class="list-investment__block">
-									<span class="list-investment__title">Для получения дополнительной информации, пожалуйста, посетите <span class="list-investment__website">www.sgi-partners.com</span></span>
+									<span class="list-investment__title">Для получения дополнительной информации, пожалуйста, посетите
+										<span class="list-investment__website">www.sgi-partners.com</span></span>
 								</div>
 							</div>
 						</div>
@@ -1109,13 +1114,6 @@
 
 				</div>
 			</section>
-
-
-
-
-
-
-
 			<section class="questions">
 				<div class="questions__container">
 					<div class="questions__heading">Вопросы</div>
@@ -1196,7 +1194,7 @@
 
 			<section class="form">
 				<div class="form__container">
-					<form data-dev class="form__content" action="" data-popup-message="#popup-form">
+					<form data-dev class="form__content" action="#" data-popup-message="#popup-form">
 						<span class="form__heading" id="form">Заказать индивидуальную консультацию</span>
 						<input data-required autocomplete="off" type="text" name="form[]" data-error placeholder="Имя" class="form__input">
 						<input id="tel" data-required autocomplete="off" type="tel" name="form[]" data-error placeholder="Телефон" class="form__input">
@@ -1283,12 +1281,12 @@
 				<button data-close type="button" class="popup__close"><img src="img/form/clouse.svg" alt=""></button>
 				<div class="popup__text">
 					<span class="wrappers-popup__heading">Заказать индивидуальную консультацию</span>
-					<form data-dev action="" class="wrappers-popup__form form-popup">
+					<form data-dev action="#" class="wrappers-popup__form form-popup">
 						<input data-required autocomplete="off" type="text" name="form[]" data-error placeholder="Имя" class="form-popup__input">
 						<input id="tel" data-required autocomplete="off" type="tel" name="form[]" data-error placeholder="Телефон" class="form-popup__input">
 						<div class="form-popup__checkbox checkbox">
-							<input data-required id="c_1" class="checkbox__input" type="checkbox" value="1" name="form[]" checked="checked">
-							<label for="c_1" class="checkbox__label"><span class="checkbox__text">Я согласен с «политикой
+							<input data-required id="c_2" class="checkbox__input" type="checkbox" value="1" name="form[]" checked="checked">
+							<label for="c_2" class="checkbox__label"><span class="checkbox__text">Я согласен с «политикой
 									обработки
 									персональных данных» компании</span></label>
 						</div>
